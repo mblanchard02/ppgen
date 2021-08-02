@@ -82,7 +82,8 @@ def main(proj_name, libs, debug_type, verbose):
   templates = [
     ['main.c', '.', 'main.c', False],
     ['CMakeLists.txt', '.', 'CMakeLists.txt', False],
-    ['pico_sdk_import.cmake', '.', 'pico_sdk_import.cmake', True] 
+    ['pico_sdk_import.cmake', '.', 'pico_sdk_import.cmake', True],
+    ['.gitignore', '.', '.gitignore', True]
   ]
   picoprobe_templates = [
     ['picoprobe_launch.json', '.vscode', 'launch.json', False]
